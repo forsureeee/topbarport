@@ -4308,8 +4308,9 @@ local appVersion = VERSION.getAppVersion()
 return latestVersion ~= nil and latestVersion == appVersion
 end
 
+return VERSION
+end
+
 local Icon = load(nodes.Icon)
 print("running TopBarPort v3.5.0 by Soul")
 return Icon
-return VERSION
-end
